@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/simo/dev/1337/libft'
+let g:netrw_dirhist_9='/home/simo/dev/1337'
+let g:netrw_dirhist_8='/home/simo/dev/1337/libft'
+let g:netrw_dirhist_7='/home/simo/dev/1337'
+let g:netrw_dirhist_6='/home/simo/dev/1337/libft'
+let g:netrw_dirhist_5='/home/simo/dev/1337/libft/include'
+let g:netrw_dirhist_4='/home/simo/dev/1337/libft'
+let g:netrw_dirhist_3='/home/simo/dev/1337/libft/include'
+let g:netrw_dirhist_2='/home/simo/dev/1337/libft'
+let g:netrw_dirhist_1='/home/simo/dev/1337'
