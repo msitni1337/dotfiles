@@ -43,6 +43,8 @@ imap <C-k> <Up>
 "# Misc:
 
 set mouse=a
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
 set relativenumber nu
 set cursorline
 set wildmenu
