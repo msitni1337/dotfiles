@@ -1,3 +1,7 @@
+# .zsh config file
+# By Mohammed Sitni
+# # # # # # # # # # #
+
 setopt HIST_IGNORE_ALL_DUPS
 autoload -Uz promptinit
 promptinit
@@ -13,16 +17,15 @@ bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-alias ls='ls'
-alias ll='ls -la'
+alias ls='ls --color=auto'
+alias ll='ls -laF'
 alias rm='rm -i'
 alias gits='git status'
 alias gita='git add'
-alias gitc='git commit -m "Cluster Mac: '
+alias gitc='git commit -m "PC: '
 alias gitp='git push'
-
+alias gcc='cc -Wall -Wextra -Werror'
