@@ -20,7 +20,7 @@ set statusline=%F%h%m%r%=%-10.(%l-%c%)%P
 "# Colors:
 
 syntax on
-colorscheme rosepine
+colorscheme slate
 set termguicolors
 
 "# Key Bindings:
@@ -45,6 +45,7 @@ imap <C-k> <Up>
 set mouse=a
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
+let &t_ut=''
 set relativenumber nu
 set cursorline
 set wildmenu
