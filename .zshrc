@@ -17,8 +17,8 @@ bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-autoload -Uz compinit
-compinit
+autoload -Uz compinit && compinit
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
 # End of lines added by compinstall
 
 alias ls='ls --color=auto'
